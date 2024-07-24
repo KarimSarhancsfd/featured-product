@@ -1,0 +1,59 @@
+body{
+  background-color: antiquewhite;
+}
+.fetured-products{
+  position: relative; /* changed from absolute to relative */
+  top: -20px; /* adjust the top position to move it above the table */
+  left: 0;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  display: inline-block;
+  background-color: rgb(83, 83, 204); /* add a background color to make it visible */
+  padding: 10px; /* add some padding to make it look better */
+  margin-bottom: 20px; /* add some margin to separate it from the table */
+}
+
+
+
+ .im{
+  max-width: 200px; /* تحديد حجم الصورة */
+  height: auto; /* الحفاظ على نسبة الأبعاد */
+  display: block; /* تجنب الفراغات الزائدة أسفل الصورة */
+  margin: 20px; /* مسافة بسيطة بين الصورة والنص */
+
+ }
+  th {
+  border: 5px solid #ccc;
+}
+
+.sale-badge {
+  position: absolute;
+  top: 60;
+  right: 1240;
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.price-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+}
+
+.old-price {
+  text-decoration: line;
+  color: #999;
+  margin-right: 10px;
+}
+
+.new-price {
+  font-weight: bold;
+  color: #333;
+}
+
+
